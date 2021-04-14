@@ -1,4 +1,4 @@
-# SJ Homework Assignment
+# Escalations Engineer Homework Assignment
 
 ## Part 1: Database Queries
 

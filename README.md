@@ -66,8 +66,11 @@ mongo mongodb://127.0.0.1:27017/brewery
    - Create a Group of Users
    - Associate Users to the Group of Users
    - Associate one User to the recently added system in JumpCloud
+
 2. Login to the system as the JumpCloud managed user
+
 3. Set agent logs to DEBUG on system and provide a copy of agent logs
+
 4. Add a SAML Connector in the JumpCloud Admin Console  
 *Note: You may choose the web-based application of your choice but many applications/services provide free trials and will allow enabling of SAML authentication. For example: Salesforce (Trailhead) or ThousandEyes allow for SAML configurations with free trial accounts.*. 
    - Configure the SAML authentication on the chosen app/service-side

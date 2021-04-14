@@ -15,7 +15,7 @@ cd /path/to/file/mongodb/
 ```
 docker pull mongo
 ```
-3. Replace the path specified under volumes in the provided docker-compose.yml to the path to the unzipped mongodb directory
+3. Replace the path specified under volumes in the provided docker-compose.yml file to the path to the mongodb directory
 4. Start the mongo service
 ```
 docker-compose up -d

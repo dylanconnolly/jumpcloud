@@ -1,4 +1,4 @@
-# SJ Homework Assignment
+# Escalations Engineer (SmokeJumper) Homework Assignment
 
 ## Part 1: Database Queries
 

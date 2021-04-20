@@ -9,7 +9,7 @@
 ### Setup Steps
 1. Change directory to the workspace for your local Mongo DB
 ```
-cd /path/to/file/mongodb/
+cd /jumpcloud-escalations-engineer-assignment/mongodb
 ```
 2. Pull down mongo community image
 ```
@@ -26,9 +26,9 @@ docker ps
 ```
 6. Copy the provided `.json` files to the docker container
 ```
-docker cp /path/to/files/employees.json container_id:/
-docker cp /path/to/files/beers.json container_id:/
-docker cp /path/to/files/patrons.json container_id:/
+docker cp employees.json {CONTAINER_ID}:/
+docker cp beers.json {CONTAINER_ID}:/
+docker cp patrons.json {CONTAINER_ID}:/
 ```
 7. Connect to the mongo docker container
 ```

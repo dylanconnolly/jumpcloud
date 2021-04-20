@@ -61,7 +61,7 @@ mongo mongodb://127.0.0.1:27017/brewery
 2. Install the JumpCloud Agent on a system (Mac, Windows, or Linux)
 
 ### Assignment
-1. Using the programming language of your choice (bonus points for Go or JavaScript), complete the following and provide your solution for each:
+1. Using the programming language of your choice (Go or JavaScript preferred), complete the following and provide your solution for each:
    - Create and activate 2 Users
    - Create a Group of Users
    - Associate Users to the Group of Users

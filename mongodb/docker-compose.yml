@@ -7,7 +7,7 @@ services:
       - PUID=1000
       - PGID=1000
     volumes:
-      - /PATH/TO/TARGET/DIR/mongodb/database:/data/db
+      - /jumpcloud_interview_assignment/jumpcloud-escalations-engineer-assignment/mongodb
     ports:
       - 27017:27017
     restart: unless-stopped

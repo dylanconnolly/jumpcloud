@@ -29,10 +29,14 @@ function getBeersByPopularity() {
             $sort: { count: -1 }
         }
     ])
+
+    let resultsArray = []
     
     while(cursor.hasNext()) {
-        printjson(cursor.next())
+        resultsArray.push(cursor.next())
     }
+
+    printjson(resultsArray)
 }
 
 getBeersByPopularity();

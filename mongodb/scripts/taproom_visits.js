@@ -1,16 +1,6 @@
 conn = new Mongo();
 db = conn.getDB("brewery")
 
-// db.patrons.aggregate([
-//     { $match: { last_checkin: { $gte: new ISODate("2021-01-01"), $lte: new ISODate("2021-04-01")}} },
-//     { $group: { _id: "$location", visits: { $sum: 1 } } },
-//     { $project: {
-//         location: "$_id",
-//         _id: 0,
-//         visits: 1
-//         }
-//     }
-// ])
 if(typeof startDate === 'undefined'){
     startDate = "2021-01-01"
 }
@@ -32,17 +22,13 @@ function locationVisits(startDate, endDate) {
         }
     ])
 
+    let resultsArray = []
+
     while(cursor.hasNext()) {
-        printjson(cursor.next())
+        resultsArray.push(cursor.next())
     }
+
+    printjson(resultsArray)
 }
 
 locationVisits(startDate, endDate);
-
-
-// db.runCommand(
-//     {
-//         eval: locationVisits(startDate, endDate),
-//         args: [startDate, endDate]
-//     }
-// )

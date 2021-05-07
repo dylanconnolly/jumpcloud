@@ -671,6 +671,6 @@ mongo mongodb://127.0.0.1:27017/brewery
    - Configure the SAML authentication on the chosen app/service-side
    - Validate one of your users created in Task 1 can login to the application through the user’s JumpCloud portal
 
-    Used Salesforce and followed this [Help Center Article](https://support.jumpcloud.com/support/s/article/single-sign-on-sso-with-salesforce1). Received error and tried walking through process again. Tried trouble shooting but ran out of time to other work obligations. The Salesforce SAML Validator appeared to be giving an highlighting an error `Unable to map the subject to a Salesforce user`
+    Used Salesforce and followed this [Help Center Article](https://support.jumpcloud.com/support/s/article/single-sign-on-sso-with-salesforce1). Received error and tried walking through process again. Troubleshot for about an hour but ran out of time due to other work obligations. The Salesforce SAML Validator appeared to be highlighting an error `Unable to map the subject to a Salesforce user`
     
    - Create and provide a HAR file of the SAML request
